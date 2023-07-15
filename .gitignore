@@ -1,0 +1,15 @@
+.gradle
+build/
+!/gradle/wrapper
+!/gradlew
+!/gradlew.bat
+
+### IntelliJ IDEA ###
+.idea/
+out/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
