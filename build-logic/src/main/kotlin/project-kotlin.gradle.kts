@@ -1,4 +1,5 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.springframework.boot.gradle.plugin.SpringBootPlugin
 
 plugins {
     id("org.jetbrains.kotlin.jvm")
@@ -22,6 +23,10 @@ allprojects {
         maven("https://mirrors.cloud.tencent.com/nexus/repository/maven-public")
         mavenCentral()
     }
+}
+
+dependencies {
+    implementation(platform(SpringBootPlugin.BOM_COORDINATES))
 }
 
 tasks.withType<KotlinCompile> {
