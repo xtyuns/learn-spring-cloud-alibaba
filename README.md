@@ -1,3 +1,4 @@
-Nacos
-openfeign
-loadbalancer
+- Nacos 
+- openfeign
+  - loadbalancer
+  - circuitbreaker

@@ -13,3 +13,7 @@ spring:
       discovery:
         namespace: 741c3fbb-909a-48a4-a2bf-ceded9f15ff0
         group: app_learn
+
+feign:
+  circuitbreaker:
+    enabled: true
