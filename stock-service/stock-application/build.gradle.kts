@@ -8,7 +8,6 @@ version = "unspecified"
 dependencies {
     implementation(project(":common-library"))
     implementation(project(":stock-service:stock-api"))
-    implementation("org.springframework.cloud:spring-cloud-starter-loadbalancer")
     implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
     implementation("com.alibaba.cloud:spring-cloud-starter-alibaba-nacos-discovery")
     implementation("org.springframework.boot:spring-boot-starter-web")
