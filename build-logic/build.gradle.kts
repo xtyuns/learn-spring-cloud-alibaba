@@ -9,9 +9,9 @@ repositories {
 }
 
 dependencies {
-    val kotlinVersion = "1.8.22"
+    val kotlinVersion = "1.6.21"
+    val springPluginVersion = "2.7.13"
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}")
     implementation("org.jetbrains.kotlin:kotlin-allopen:${kotlinVersion}")
-    implementation("org.springframework.boot:spring-boot-gradle-plugin:2.7.13")
-    implementation("io.spring.gradle:dependency-management-plugin:1.0.15.RELEASE")
+    implementation("org.springframework.boot:spring-boot-gradle-plugin:${springPluginVersion}")
 }

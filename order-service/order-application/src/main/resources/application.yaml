@@ -1,0 +1,15 @@
+server:
+  port: 16101
+
+spring:
+  application:
+    name: order-service
+
+  cloud:
+    nacos:
+      server-addr: q.5xo.cc:8848
+      username: app_learn
+      password: learn
+      discovery:
+        namespace: 741c3fbb-909a-48a4-a2bf-ceded9f15ff0
+        group: app_learn
