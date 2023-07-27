@@ -15,6 +15,9 @@ spring:
         group: app_learn
     loadbalancer:
       enabled: true
+    sentinel:
+      transport:
+        dashboard: localhost:8849
 
 feign:
   circuitbreaker:

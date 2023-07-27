@@ -1,10 +1,9 @@
 server:
-  port: 16102
+  port: 16100
 
 spring:
   application:
-    name: stock-service
-
+    name: gateway-service
   cloud:
     nacos:
       server-addr: q.5xo.cc:8848
@@ -13,6 +12,12 @@ spring:
       discovery:
         namespace: 741c3fbb-909a-48a4-a2bf-ceded9f15ff0
         group: app_learn
+    gateway:
+      discovery:
+        locator:
+          enabled: true
     sentinel:
+      filter:
+        enabled: false
       transport:
         dashboard: localhost:8849
